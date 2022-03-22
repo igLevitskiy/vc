@@ -1,0 +1,59 @@
+.container{
+  box-sizing: content-box;
+  box-shadow: 3px 3px hsla(199, 76%, 39%, 0.706), -1em 0 .4em rgba(5, 53, 126, 0.329);
+  padding: 20px;
+  margin: 0;
+   max-width: 500px;
+  height: 125px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color-adjust: exact;
+  background-image: linear-gradient(hsl(199, 86%, 23%), #35a6d3a8);
+  border-radius: 20px;
+}
+.zag{
+  color: white;
+  line-height: 50px;
+}
+.txt{
+  color: #0a0a0a;
+}
+.hobby .h{
+  max-width: 220px;
+  transition: background-color .5s;
+}
+.h:hover  {
+  background-color: gold;
+  background-image: linear-gradient(rgba(180, 51, 0, 0.5), rgba(70, 140, 220, 0.5));
+  color: #900;
+  max-width: max-content;
+  height: 20px;
+  text-align: center;
+  font: 15px "Helvetica", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color-adjust: exact;
+  border-radius: 20px;
+  box-sizing: content-box;
+  
+}
+.soc:active{
+  color: #f7cb09;
+  background-color: black;
+  border-radius: 5px;
+  max-width: max-content;
+}
+.photo{
+  box-shadow: 3px 3px hsla(199, 76%, 39%, 0.706), -1em 0 .4em rgba(5, 53, 126, 0.329);
+  display: flex;
+  margin: 0;
+  border-radius: 20px;
+}
+.tab{
+  box-sizing: border-box;
+
+}
